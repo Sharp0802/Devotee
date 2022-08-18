@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../Framework.props" />
+
+    <!-- generator references -->
+    <ItemGroup>
+        <ProjectReference Include="..\Devotee.Helper.Generator\Devotee.Helper.Generator.csproj" 
+                          OutputItemType="Analyzer" 
+                          ReferenceOutputAssembly="false" />
+    </ItemGroup>
+
+    <!-- query provider references -->
+    <ItemGroup>
+        <ProjectReference Include="..\Devotee.Provider.*\Devotee.Provider.*.csproj" />
+    </ItemGroup>
+
+</Project>
