@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../Framework.props" />
+
+    <ItemGroup>
+        <PackageReference Include="AngleSharp" Version="1.0.0-alpha-844" />
+        <PackageReference Include="StandardSocketsHttpHandler" Version="2.2.0.4" />
+    </ItemGroup>
+
+</Project>
